@@ -1,31 +1,27 @@
-# Authentication
+# Authentication using Auth.js with Next.js 14
 
-This is an example using NextAuth.js for authentication.
+This example shows how to use Auth.js for authentication with Next.js 14.
 
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/auth&project-name=auth&repository-name=auth&env=AUTH_GITHUB_ID,AUTH_GITHUB_SECRET,AUTH_SECRET)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bibartaks/auth.js_with_next.js14&project-name=auth.js_with_next.js14&repository-name=auth.js_with_next.js14&env=AUTH_GITHUB_ID,AUTH_GITHUB_SECRET,AUTH_SECRET)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), [pnpm](https://pnpm.io), or [Bun](https://bun.sh/docs/cli/bunx) to bootstrap the example:
-
 ```bash
-npx create-next-app --example auth
+git clone https://github.com/bibartaks/auth.js_with_next.js14.git
 ```
 
 ```bash
-yarn create next-app --example auth
+cd auth.js_with_next.js14
 ```
 
 ```bash
-pnpm create next-app --example auth
+code .
 ```
 
-```bash
-bunx create-next-app --example auth
-```
+#### Done 🎉
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
